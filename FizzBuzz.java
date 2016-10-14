@@ -2,11 +2,12 @@
 public class FizzBuzz {
 
   public static void main(String[] args) {
-    run();
+    int maxNumber = Integer.parseInt(args[0]);
+    run(maxNumber);
   }
   
-  public static void run() {
-    for (int i = 0; i < 100; i++) {
+  public static void run(int maxNumber) {
+    for (int i = 0; i < maxNumber; i++) {
       System.out.println(fizzBuzz(i));
     }
   }
