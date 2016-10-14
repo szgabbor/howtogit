@@ -10,5 +10,11 @@ public class FizzBuzz {
       System.out.println(i);
     }
   }
+
+  public static String fizz(int number) {
+    if (number % 5) return "Fizz";
+    return number;
+  }
+
 }
 
