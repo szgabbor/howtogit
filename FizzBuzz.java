@@ -12,8 +12,9 @@ public class FizzBuzz {
   }
 
   public static String fizz(int number) {
-    if (number % 5) return "Fizz";
-    return number;
+    String result = "" + number;
+    if (number % 5 == 0) result = "Fizz";
+    return result;
   }
 
 }
