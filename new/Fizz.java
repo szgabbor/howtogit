@@ -9,5 +9,15 @@ public class Fizz {
       }
     }
   }
+
+  public static void buzz() {
+    for (int i = 0; i < 100; i++) {
+      if (i % 4 == 0) {
+        System.out.println("Buzz");
+      } else {
+        System.out.println(i);
+      }
+    }
+  }
 }
 
