@@ -1,4 +1,2 @@
-Egy próbaprojekt a git tanulására. 
+Egy projekt a git tanulására. 
 
-
-javac FizzBuzz.java && java FizzBuzz 10 2 3 
