@@ -15,8 +15,8 @@ public class FizzBuzz {
 
   public static String fizzBuzz(int number, int step1, int step2) {
     String result = "";
-    if (number % step1 == 0) result += "Fizz";
     if (number % step2 == 0) result += "Buzz";
+    if (number % step1 == 0) result += "Fizz";
     if (result.equals("")) result = "" + number;
     return result;
   }
